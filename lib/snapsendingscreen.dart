@@ -77,7 +77,7 @@
 // class _ChatScreenState extends State<ChatScreen> {
 //   String _category = "";
 //   final TextEditingController _messageController = TextEditingController();
-//   final String _apiKey = "AIzaSyAuQNEWjpgEU0gJPTmjAkb6vtiW1zJb-Kg";
+//   final String _apiKey = "apikey";
 //   List<Map<String, dynamic>> messages = [];
 
 //   @override
