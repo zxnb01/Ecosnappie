@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:new_proj/addCaption.dart';
 import 'package:new_proj/challenge.dart';
 import 'package:new_proj/maps.dart';
+import 'package:new_proj/msging.dart';
 import 'package:new_proj/snapsendingscreen.dart';
 //import 'package:new_proj/maps.dart';
 import 'package:percent_indicator/circular_percent_indicator.dart';
@@ -11,6 +12,8 @@ import 'package:rive/rive.dart';
 import 'package:flutter/services.dart';
 
 import 'profile.dart';
+
+import 'marketplace/marketmain.dart';
 
 void main() {
   runApp(EcoSnapApp());
@@ -113,6 +116,18 @@ class _HomeScreenState extends State<HomeScreen> {
         title: Text("EcoSnap", style: TextStyle(color: Colors.white)),
         backgroundColor: Colors.green[700],
         centerTitle: true,
+        //new
+        actions: [
+          IconButton(
+            icon: Icon(Icons.shopping_cart),
+            onPressed: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => MarketplacePage()),
+              );
+            },
+          ),
+        ],
       ),
       body: Column(
         children: [
@@ -216,7 +231,7 @@ class _HomeScreenState extends State<HomeScreen> {
               ),
             ],
           ),
-          SizedBox(height: 30),
+          SizedBox(height: 20),
           Expanded(
             child: Center(
               child: _riveArtboard == null
@@ -224,10 +239,10 @@ class _HomeScreenState extends State<HomeScreen> {
                   : Container(
                       decoration: BoxDecoration(
                         color: Colors.pink[100],
-                        borderRadius: BorderRadius.circular(80),
+                        borderRadius: BorderRadius.circular(20),
                       ),
-                      width: 300,
-                      height: 300,
+                      width: 350,
+                      height: 350,
                       child: Rive(artboard: _riveArtboard!),
                     ),
             ),
@@ -261,7 +276,12 @@ class _HomeScreenState extends State<HomeScreen> {
             SizedBox(width: 48),
             IconButton(
               icon: Icon(Icons.message),
-              onPressed: () {},
+              onPressed: () {
+                Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) => MessagingPage()),
+                );
+              },
             ),
             IconButton(
               icon: Icon(Icons.person),

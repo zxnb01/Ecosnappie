@@ -85,6 +85,25 @@ flutter:
     - assets/plante.riv
     - assets/tree_demo.riv
     - assets/green.riv
+    - assets/marketplace/lomi/lomi_m.png
+    - assets/marketplace/lomi/lomi_b.png
+    - assets/marketplace/lomi/lomi_d.png
+    - assets/marketplace/lomi/lomi_f.png
+    - assets/marketplace/lomi/lomi_s.png
+    - assets/marketplace/brush/brush_m.png
+    - assets/marketplace/brush/brush_g.png
+    - assets/marketplace/brush/brush_i.png
+    - assets/marketplace/chewtoy/chew_2.png
+    - assets/marketplace/chewtoy/chew_m.png
+    - assets/marketplace/poopbag/poop_2.png
+    - assets/marketplace/poopbag/poop_main.png
+    - assets/marketplace/solarcharger/solar_m.png
+    - assets/marketplace/solarcharger/solar_p.png
+    - assets/marketplace/solarcharger/solar_w.png
+    - assets/marketplace/throw/throw_c.png
+    - assets/marketplace/throw/throw_m.png
+    - assets/marketplace/throw/throw_n.png
+
 
 
   # An image asset can refer to one or more resolution-specific "variants", see
