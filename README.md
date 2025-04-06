@@ -15,3 +15,8 @@ Our idea is a social network app to save the environment, one small action at a 
 ## Demo Videos and Screenshot
 working prototype:
 https://drive.google.com/drive/folders/18k0xQLDci9PAarhBXhL5ZDWufdiR2uNK?usp=sharing
+
+GSC SUBMISSION:
+https://drive.google.com/drive/folders/16KoUHzeiuWBnM6Reltb5iydoFXkJsCY9?usp=sharing
+
+## Project Preview
