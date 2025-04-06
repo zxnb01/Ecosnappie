@@ -77,7 +77,7 @@
 // class _ChatScreenState extends State<ChatScreen> {
 //   String _category = "";
 //   final TextEditingController _messageController = TextEditingController();
-//   final String _apiKey = "AIzaSyAuQNEWjpgEU0gJPTmjAkb6vtiW1zJb-Kg";
+//   final String _apiKey = "apikey";
 //   List<Map<String, dynamic>> messages = [];
 
 //   @override
@@ -293,7 +293,7 @@ class ChatScreen extends StatefulWidget {
 class _ChatScreenState extends State<ChatScreen> {
   String _category = "";
   final TextEditingController _messageController = TextEditingController();
-  final String _apiKey = "AIzaSyBfXyJx5YL9gcuIGHIjvcE8BpT0nv8hb_4";
+  final String _apiKey = "your_api_key";
   List<Map<String, dynamic>> messages = [];
 
   @override
