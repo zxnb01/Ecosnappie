@@ -20,3 +20,14 @@ GSC SUBMISSION:
 https://drive.google.com/drive/folders/16KoUHzeiuWBnM6Reltb5iydoFXkJsCY9?usp=sharing
 
 ## Project Preview
+
+<div align="center">
+   <img src="assets/home2.jpg" width="200" />
+  <img src="assets/home1.jpg" width="200" />
+  <img src="assets/challenge (2).png" width="200" />
+  <img src="assets/chalpop (1).png" width="200" />
+  <img src="assets/chaldeets.png" width="200" />
+  <img src="assets/map (1).png" width="200" />
+  <img src="assets/map2 (1).png" width="200" />
+  <img src="assets/profile.png" width="200" />
+</div>
